@@ -1,0 +1,10 @@
+version: '3'
+services:
+  sonarqube:
+    #build: .
+    image: sonarqube
+    container_name: sonarqube
+    ports:
+      - "9000:9000"
+    volumes:
+      - /home/pessolatohenrique/Desktop/projects/sonar-analysis:/opt/sonarqube/data
