@@ -7,6 +7,7 @@ O objetivo deste projeto é centralizar as configurações de containers via Doc
 ### Tecnologias abstraídas
 
 - Sonarqube
+- Toolkit Node: Redis, MySQL, MongoDB, Kafka, Zookeeper
 
 ### Instalação do projeto
 
